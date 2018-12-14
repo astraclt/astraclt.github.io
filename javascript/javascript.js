@@ -15,6 +15,18 @@
         });
     });
 
+    $(document).ready(function(){
+    $(".div_content_hide>a").click(function(){
+        var contents = $(this).next("ul");
+
+        if( contents.is(":visible") ){
+            contents.slideUp();
+        }else{
+            contents.slideDown();
+        }
+    });
+  });
+
     // Create a clone of the menu, right next to original.
 $('.header').addClass('original').clone().insertAfter('.header').addClass('cloned').css('position','fixed').css('top','0').css('margin-top','0').css('z-index','500').removeClass('original').hide();
 
