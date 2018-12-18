@@ -548,10 +548,10 @@ figcaption {
 }
 
 
-/*800 이상*/
-/*800 이상*/
-/*800 이상*/
-@media (min-width: 31em) {
+/*500 이상*/
+/*500 이상*/
+/*500 이상*/
+@media (min-width: 510px) {
 a {
 
 	text-decoration: none;
@@ -990,7 +990,7 @@ figcaption {
 /*1024 이상*/
 /*1024 이상*/
 /*1024 이상*/
-@media (min-width: 52em) {
+@media (min-width: 810px) {
 
 
 a {
