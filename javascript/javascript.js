@@ -27,6 +27,18 @@
     });
   });
 
+    $(document).ready(function(){
+    $(".art_issue_audio>a").click(function(){
+        var contents = $(this).next("div");
+
+        if( contents.is(":visible") ){
+            contents.slideUp();
+        }else{
+            contents.slideDown();
+        }
+    });
+  });
+
 
 
     // Create a clone of the menu, right next to original.
@@ -60,23 +72,23 @@ function stickIt() {
 };
 
 
- $(function() {
-   // 보이기 | 숨기기
-   $(window).scroll(function() {
-      if ($(this).scrollTop() > 250) { //250 넘으면 버튼이 보여짐니다.
-            $('#button_top').fadeIn();
-            } else {
-            $('#button_top').fadeOut();
-      }
-   });
-   // 버튼 클릭시
-   $("#button_top").click(function() {   
-   $('html, body').animate({
-     scrollTop : 0    // 0 까지 animation 이동합니다.
-    }, 400);          // 속도 400
-    return false;
-    });
-  });
+ // $(function() {
+ //   // 보이기 | 숨기기
+ //   $(window).scroll(function() {
+ //      if ($(this).scrollTop() > 250) { //250 넘으면 버튼이 보여짐니다.
+ //            $('.foot_img').fadeIn();
+ //            } else {
+ //            $('.foot_img').fadeOut();
+ //      }
+ //   });
+ //   // 버튼 클릭시
+ //   $(".foot_img").click(function() {   
+ //   $('html, body').animate({
+ //     scrollTop : 0    // 0 까지 animation 이동합니다.
+ //    }, 400);          // 속도 400
+ //    return false;
+ //    });
+ //  });
 
 
 

@@ -234,6 +234,7 @@ main {
 
 .art_title {
 
+	display: none;
 	font-family: DIN;
 	font-size: 17px;
 	position: relative;
@@ -264,7 +265,7 @@ main {
 .img_contents {
 
 	
-	width: 100px;
+	width: 180px;
 	position: relative;
 	top: 3px;
 	/*height: 35vw;*/
@@ -881,6 +882,7 @@ main {
 	align-items: center;
 	justify-content: center;
 	top: 200px;
+	/*height: 100px;*/
 
 }
 
@@ -931,7 +933,7 @@ main {
 .img_contents {
 
 	
-	width: 200px;
+	width: 400px;
 	/*width: 650px;*/
 	position: relative;
 	top: 50px;
@@ -940,6 +942,11 @@ main {
 
 }
 
+.bold {
+
+	font-size: 20px;
+
+}
 
 .div_description {
 
@@ -969,7 +976,7 @@ main {
 	color: #585858;
 	line-height: 30px;
 	/*overflow: hidden;*/
-	height: 805px;
+	height: 300px;
 	white-space: pre-line;
 	font-size: 15px;
 	/*max-height: 50%;*/
@@ -980,11 +987,22 @@ main {
 /*FOOTER*/
 .footer {
 
-	position: relative;
+	position: fixed;
 	bottom: 5%;
-	
+	left: 84%;
+
 	font-size: 15px;
 	color: #A4A4A4;
+
+}
+
+
+.footer_mail {
+
+	color: #A4A4A4;
+	position: relative;
+	left: 38%;
+
 
 }
 

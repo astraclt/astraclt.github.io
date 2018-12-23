@@ -1485,11 +1485,22 @@ figcaption {
 /*FOOTER*/
 .footer {
 
-	position: relative;
+	position: fixed;
 	bottom: 5%;
-	
+	left: 84%;
+
 	font-size: 15px;
 	color: #A4A4A4;
+
+}
+
+
+.footer_mail {
+
+	color: #A4A4A4;
+	position: relative;
+	left: 38%;
+
 
 }
 
@@ -1502,5 +1513,4 @@ figcaption {
 	height: auto;
 
 }
-
 }
