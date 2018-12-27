@@ -1,14 +1,14 @@
 @font-face {
 	
 	font-family: NanumSquare; // 사용할 폰트명
-    src: local(※), url('font/NanumSqaureRegular.ttf') format('woff');
+    src: local(※), url('font/NanumSqaureRegular.woff') format('woff');
 
 }
 
 @font-face {
 
 	font-family: DIN; // 사용할 폰트명
-    src: local(※), url('font/DINAlternate-bold.ttf') format('woff');
+    src: local(※), url('font/DINAlternate-bold.woff') format('woff');
 
 }
 
