@@ -1,14 +1,23 @@
+@import url(//cdn.rawgit.com/hiun/NanumSquare/master/nanumsquare.css);
+
 @font-face {
 	
-	font-family: NanumSquare; // 사용할 폰트명
-    src: local(※), url('font/NanumSqaureRegular.woff') format('woff');
-
+ 	font-family: 'NanumSquare';
+ 	src: url('font/NanumSquareR.eot');
+ 	src: url('font/NanumSquareR.eot?#iefix') format('embedded-opentype'),
+     	 url('font/NanumSquareR.woff') format('woff'),
+      	 url('font/NanumSquareR.ttf') format('truetype');
 }
+
 
 @font-face {
 
-	font-family: DIN; // 사용할 폰트명
-    src: local(※), url('font/DINAlternate-bold.woff') format('woff');
+	
+	font-family: 'DIN Alternate Bold';
+	font-style: normal;
+	font-weight: normal;
+	src: local('DIN Alternate Bold'), url('font/DINAlternate-Bold.woff') format('woff');
+
 
 }
 
@@ -33,7 +42,7 @@ a {
 
 body {
 
-	font-family: NanumSquare;
+	font-family: 'NanumSquare';
 	width: 100%;
 	/*background: radial-gradient(ellipse farthest-corner, #FFFFFF, #002fa7);*/
 	margin: 0 0 0 0;
@@ -762,7 +771,7 @@ main {
 
 .art_title {
 
-	font-family: DIN;
+	font-family: 'DIN Alternate Bold';
 	font-size: 20px;
 	color: #000000;
 
@@ -831,7 +840,7 @@ main {
 	margin-left: -80px;
 	color: #FFFFFF;
 	height: auto;
-	font-family: DIN;
+	font-family: 'DIN Alternate Bold';
 	font-size: 18px;
 	
 
@@ -841,7 +850,7 @@ main {
 
 	position: relative;
 	top: -10px;
-	font-family: DIN;
+	font-family: 'DIN Alternate Bold';
 	font-size: 17px;
 	font-weight: bold;
 
@@ -971,10 +980,22 @@ figcaption {
 /*FOOTER*/
 .footer {
 
-	position: relative;
+	position: fixed;
 	bottom: 5%;
+	left: 84%;
+
 	font-size: 15px;
 	color: #A4A4A4;
+
+}
+
+
+.footer_mail {
+
+	color: #A4A4A4;
+	position: relative;
+	left: 38%;
+
 
 }
 
@@ -982,12 +1003,11 @@ figcaption {
 
 	position: relative;
 	left: 50%;
-	margin-left: -40px;
-	width: 80px;
+	margin-left: -20px;
+	width: 75px;
 	height: auto;
 
 }
-
 
 }
 
@@ -1006,7 +1026,7 @@ a {
 
 body {
 
-	font-family: NanumSquare;
+	font-family: 'NanumSquare';
 	/*background: radial-gradient(ellipse farthest-corner, #FFFFFF, #002fa7);*/
 	margin: 0 0 0 0;
 	display: flex;
@@ -1058,6 +1078,14 @@ body {
 }
 
 
+.div_header_img{
+
+	width: 200px;
+
+}
+
+
+
 
 .img_title {
 
@@ -1071,9 +1099,14 @@ body {
 
 }
 
-.img_title_hidden {
+.img_title2 {
 
-	display: none;
+	
+	width: 310px;
+	height: auto;
+	position: absolute;
+	top: 10px;
+	visibility: hidden;
 
 }
 
@@ -1203,7 +1236,7 @@ main {
 
 .art_title {
 
-	font-family: DIN;
+	font-family: 'DIN Alternate Bold';
 	font-size: 20px;
 	color: #000000;
 
@@ -1269,7 +1302,7 @@ main {
 	margin-top: -10px;
 	margin-left: -110px;
 	color: #FFFFFF;
-	font-family: DIN;
+	font-family: 'DIN Alternate Bold';
 	font-size: 30px;
 	
 
@@ -1279,7 +1312,7 @@ main {
 
 	position: relative;
 	top: -10px;
-	font-family: DIN;
+	font-family: 'DIN Alternate Bold';
 	font-size: 20px;
 	font-weight: bold;
 
@@ -1295,6 +1328,7 @@ main {
 	line-height: 30px;
 	white-space: pre-line;
 	font-size: 17px;
+	font-weight: normal;
 	/*max-height: 50%;*/
 
 }

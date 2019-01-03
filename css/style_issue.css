@@ -1063,6 +1063,18 @@ body {
 
 }
 
+.img_title2 {
+
+	
+	width: 310px;
+	height: auto;
+	position: absolute;
+	top: 10px;
+	visibility: hidden;
+
+}
+
+
 .img_title_hidden {
 
 	display: none;

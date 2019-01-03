@@ -62,11 +62,15 @@ function stickIt() {
     widthOrgElement = orgElement.css('width');
     $('.cloned').css('left',leftOrgElement+'px').css('top',0).css('width',widthOrgElement).show();
     $('.original').css('visibility','hidden');
+    $('.img_title').css('visibility','hidden');
+    $('.img_title2').css('visibility','visible');
     // $('.a_title').css('visibility','hidden');
   } else {
     // not scrolled past the menu; only show the original menu.
     $('.cloned').hide();
     $('.original').css('visibility','visible');
+    $('.img_title').css('visibility','visible');
+    $('.img_title2').css('visibility','hidden');
     // $('a_title').css('visibility','visible');
   };
 };
