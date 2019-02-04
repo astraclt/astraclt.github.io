@@ -42,6 +42,8 @@ a {
 
 body {
 
+	overflow-x: hidden;
+	overflow-y: auto;
 	font-family: 'NanumSquare';
 	width: 100%;
 	/*background: radial-gradient(ellipse farthest-corner, #FFFFFF, #002fa7);*/
@@ -51,7 +53,7 @@ body {
 	align-items: center;
 	align-content: center;
 	justify-content: center;
-	overflow-x: hidden;
+	
 
 }
 
@@ -77,6 +79,14 @@ body {
 .img_title{
 
 	display: none;
+}
+
+.img_title2{
+
+	position: relative;
+	height: 40px;
+	top: 20px;
+
 }
 
 .img_title_hidden {
@@ -132,6 +142,7 @@ body {
 	position: absolute;
 	right: 2%;
 	top: 70px;
+	color: #FFFFFF;
 
 }
 
@@ -145,6 +156,13 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	color: #FFFFFF;
+
+}
+
+.hide_menu_color {
+
+	color: #FFFFFF;
 
 }
 
@@ -224,6 +242,9 @@ main {
 	align-items: center;
 	justify-content: center;
 	top: 100px;
+	left: 2.5%;
+	width: 105%;
+
 
 
 }
@@ -252,7 +273,7 @@ main {
 	position: relative;
 	top: 15px;
 	font-family: DIN;
-	font-size: 18px;
+	font-size: 25px;
 	color: #000000;
 
 }
@@ -302,7 +323,7 @@ main {
 	display: inline-block;
 	position: relative;
 	width: 100%;
-	height: 140px;
+	height: auto;
 	left: 10px;
 
 }
@@ -326,7 +347,7 @@ main {
 
 	font-family: DIN;
 	font-weight: bold;
-	font-size: 15px;
+	font-size: 25px;
 
 }
 
@@ -334,13 +355,13 @@ main {
 
 	display: inline-block;
 	position: relative;
-	top: -20px;
+	top: -30px;
 	color: #585858;
-	line-height: 20px;
+	line-height: 35px;
 	overflow: hidden;
 	
 	white-space: pre-line;
-	font-size: 12px;
+	font-size: 20px;
 	
 
 }
@@ -540,11 +561,22 @@ figcaption {
 /*FOOTER*/
 .footer {
 
-	position: relative;
+	position: fixed;
 	bottom: 5%;
-	
+	left: 78%;
+
 	font-size: 15px;
 	color: #A4A4A4;
+
+}
+
+
+.footer_mail {
+
+	color: #A4A4A4;
+	position: relative;
+	left: 38%;
+
 
 }
 
@@ -552,13 +584,11 @@ figcaption {
 
 	position: relative;
 	left: 50%;
-	margin-left: -30px;
-	width: 70px;
+	margin-left: -20px;
+	width: 75px;
 	height: auto;
 
 }
-
-
 }
 
 
@@ -638,6 +668,16 @@ body {
 
 }
 
+
+.img_title2 {
+
+	width: 250px;
+	height: auto;
+	position: relative;
+	top: -70px;
+
+}
+
 .img_title_hidden {
 
 	display: none;
@@ -688,7 +728,7 @@ body {
 
 	position: absolute;
 	right: 10%;
-	top: -280px;
+	top: -310px;
 	list-style: none;
 	display: flex;
 	align-items: center;
@@ -764,7 +804,7 @@ main {
 .art_issue {
 
 	width: 80%;
-	left: -0px;
+	left: -39px;
 
 }
 
