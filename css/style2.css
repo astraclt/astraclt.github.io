@@ -595,7 +595,7 @@ figcaption {
 /*500 이상*/
 /*500 이상*/
 /*500 이상*/
-@media (min-width: 510px) {
+@media (min-width: 700px) {
 a {
 
 	text-decoration: none;
