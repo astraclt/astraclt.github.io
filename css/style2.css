@@ -40,6 +40,29 @@ a {
 
 @media (min-width: 1px) {
 
+@import url(//cdn.rawgit.com/hiun/NanumSquare/master/nanumsquare.css);
+
+@font-face {
+	
+ 	font-family: 'NanumSquare';
+ 	src: url('font/NanumSquareR.eot');
+ 	src: url('font/NanumSquareR.eot?#iefix') format('embedded-opentype'),
+     	 url('font/NanumSquareR.woff') format('woff'),
+      	 url('font/NanumSquareR.ttf') format('truetype');
+}
+
+
+@font-face {
+
+	
+	font-family: 'DIN Alternate Bold';
+	font-style: normal;
+	font-weight: normal;
+	src: local('DIN Alternate Bold'), url('font/DINAlternate-Bold.woff') format('woff');
+
+
+}
+
 body {
 
 	overflow-x: hidden;
@@ -596,6 +619,31 @@ figcaption {
 /*500 이상*/
 /*500 이상*/
 @media (min-width: 700px) {
+
+@import url(//cdn.rawgit.com/hiun/NanumSquare/master/nanumsquare.css);
+
+@font-face {
+	
+ 	font-family: 'NanumSquare';
+ 	src: url('font/NanumSquareR.eot');
+ 	src: url('font/NanumSquareR.eot?#iefix') format('embedded-opentype'),
+     	 url('font/NanumSquareR.woff') format('woff'),
+      	 url('font/NanumSquareR.ttf') format('truetype');
+}
+
+
+@font-face {
+
+	
+	font-family: 'DIN Alternate Bold';
+	font-style: normal;
+	font-weight: normal;
+	src: local('DIN Alternate Bold'), url('font/DINAlternate-Bold.woff') format('woff');
+
+
+}
+
+
 a {
 
 	text-decoration: none;
@@ -1057,6 +1105,28 @@ figcaption {
 /*1024 이상*/
 @media (min-width: 810px) {
 
+@import url(//cdn.rawgit.com/hiun/NanumSquare/master/nanumsquare.css);
+
+@font-face {
+	
+ 	font-family: 'NanumSquare';
+ 	src: url('font/NanumSquareR.eot');
+ 	src: url('font/NanumSquareR.eot?#iefix') format('embedded-opentype'),
+     	 url('font/NanumSquareR.woff') format('woff'),
+      	 url('font/NanumSquareR.ttf') format('truetype');
+}
+
+
+@font-face {
+
+	
+	font-family: 'DIN Alternate Bold';
+	font-style: normal;
+	font-weight: normal;
+	src: local('DIN Alternate Bold'), url('font/DINAlternate-Bold.woff') format('woff');
+
+
+}
 
 a {
 
