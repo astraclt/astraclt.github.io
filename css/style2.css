@@ -163,8 +163,8 @@ body {
 	display: none;
 	list-style: none;
 	position: absolute;
-	right: 2%;
-	top: 70px;
+	right: 0%;
+	top: 150px;
 	color: #FFFFFF;
 
 }
@@ -172,8 +172,8 @@ body {
 .hide_li {
 
 	border: 2px solid #000000;
-	width: 200px;
-	height: 30px;
+	width: 280px;
+	height: 60px;
 	z-index: 1;
 	background-color: #000000;
 	display: flex;
@@ -186,6 +186,7 @@ body {
 .hide_menu_color {
 
 	color: #FFFFFF;
+	font-size: 40px;
 
 }
 
@@ -606,9 +607,9 @@ figcaption {
 .foot_img {
 
 	position: relative;
-	left: 50%;
+	left: -20%;
 	margin-left: -20px;
-	width: 75px;
+	width: 150px;
 	height: auto;
 
 }
