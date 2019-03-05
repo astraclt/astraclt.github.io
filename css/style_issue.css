@@ -1,22 +1,36 @@
-@import url(//cdn.rawgit.com/hiun/NanumSquare/master/nanumsquare.css);
-
 @font-face {
 	
- 	font-family: 'NanumSquare';
- 	src: url('font/NanumSquareR.eot');
- 	src: url('font/NanumSquareR.eot?#iefix') format('embedded-opentype'),
-     	 url('font/NanumSquareR.woff') format('woff'),
-      	 url('font/NanumSquareR.ttf') format('truetype');
+ 	font-family: NanumSquareR;
+ 	src: url(font/NanumSquareR.eot);
+ 	src: url(font/NanumSquareR.eot?#iefix) format('embedded-opentype'),
+     	 url(font/NanumSquareR.woff) format('woff'),
+      	 url(font/NanumSquareR.ttf) format('truetype');
+      font-weight: normal;
+      font-style: normal;
 }
 
 
+/*@font-face {
+
+    font-family:'NanumGothic';
+    src: url('images/NanumGothic.eot');
+    src: url('images/NanumGothic.eot?#iefix') format('embedded-opentype'),
+         url('images/NanumGothic.woff') format('woff'),
+         url('images/NanumGothic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal; 
+
+}*/
+
+
+
 @font-face {
 
 	
-	font-family: 'DIN Alternate Bold';
+	font-family: DIN Alternate Bold; 
 	font-style: normal;
 	font-weight: normal;
-	src: local('DIN Alternate Bold'), url('font/DINAlternate-Bold.woff') format('woff');
+	src: local(DIN Alternate Bold), url(font/DINAlternate-Bold.woff) format('woff');
 
 
 }
@@ -1410,6 +1424,7 @@ main {
 
 .p_contents{
 
+	font-family: 'NanumSquareR';
 	color: #585858;
 	text-align: justify;
 	width: 94%;
@@ -1422,6 +1437,7 @@ main {
 
 .q {
 
+	font-family: 'NanumSquareR';
 	color: #585858;
 	background-color: #F2F2F2;
 	border: 10px solid #F2F2F2;
@@ -1439,6 +1455,11 @@ main {
 	width: 700px;
 	position: relative;
 	
+}
+
+div p {
+
+	text-align: justify;
 
 }
 
@@ -1453,6 +1474,7 @@ figure {
 
 figcaption {
 
+	font-family: 'NanumSquareR';
 	position: relative;
 	top: 5px;
 	color: #424242;
@@ -1620,23 +1642,6 @@ figcaption {
 	overflow: hidden;
 	
 }
-
-figure {
-
-	margin: 0 0 0 0;
-	text-align: center;
-
-}
-
-figcaption {
-
-	position: relative;
-	top: 5px;
-	color: #424242;
-
-}
-
-
 
 
 /*FOOTER*/
