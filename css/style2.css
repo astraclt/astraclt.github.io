@@ -295,7 +295,7 @@ main {
 
 	position: relative;
 	top: 15px;
-	font-family: DIN;
+	font-family: 'DIN Alternate Bold';
 	font-size: 25px;
 	color: #000000;
 
@@ -359,7 +359,7 @@ main {
 	left: 50%;
 	margin-left: -85px;
 	margin-top: -50px;
-	font-family: DIN;
+	font-family: 'DIN Alternate Bold';
 	color: #FFFFFF;
 	font-size: 20px;
 	font-weight: bold;
@@ -368,7 +368,7 @@ main {
 
 .des_title{
 
-	font-family: DIN;
+	font-family: 'DIN Alternate Bold';
 	font-weight: bold;
 	font-size: 25px;
 
@@ -618,7 +618,7 @@ figcaption {
 /*500 이상*/
 /*500 이상*/
 /*500 이상*/
-@media (min-width: 700px) {
+@media (min-width: 1000px) {
 
 @import url(//cdn.rawgit.com/hiun/NanumSquare/master/nanumsquare.css);
 
@@ -1103,7 +1103,7 @@ figcaption {
 /*1024 이상*/
 /*1024 이상*/
 /*1024 이상*/
-@media (min-width: 810px) {
+@media (min-width: 1242px) {
 
 @import url(//cdn.rawgit.com/hiun/NanumSquare/master/nanumsquare.css);
 

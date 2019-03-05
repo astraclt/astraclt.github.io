@@ -349,6 +349,61 @@ main {
 
 }
 
+
+.p_contents{
+
+	color: #585858;
+	text-align: justify;
+	width: 94%;
+	white-space: pre-line;
+	line-height: 30px;
+	font-size: 18px;
+
+}
+
+
+.q {
+
+	color: #585858;
+	background-color: #F2F2F2;
+	border: 10px solid #F2F2F2;
+	width: 80%;
+	position: relative;
+	left: 5%;
+	white-space: pre-line;
+	line-height: 30px;
+	font-size: 18px;
+
+}
+
+.q_img{
+
+	width: 90%;
+	position: relative;
+	
+
+}
+
+figure {
+
+	position: relative;
+	margin: 0 0 0 0;
+	text-align: center;
+	left: -10px;
+
+}
+
+figcaption {
+
+	width: 90%;
+	position: relative;
+	left: 20px;
+	top: 5px;
+	color: #424242;
+	font-size: 13px;
+
+}
+
 .read_more {
 
 	display: none;
@@ -438,21 +493,6 @@ main {
 	
 }
 
-figure {
-
-	margin: 0 0 0 0;
-	text-align: center;
-
-}
-
-figcaption {
-
-	position: relative;
-	top: 5px;
-	color: #424242;
-
-}
-
 /*AUDIO*/
 .art_audio {
 
@@ -521,21 +561,6 @@ figcaption {
 	/*height: 300px;*/
 	overflow: hidden;
 	
-}
-
-figure {
-
-	margin: 0 0 0 0;
-	text-align: center;
-
-}
-
-figcaption {
-
-	position: relative;
-	top: 5px;
-	color: #424242;
-
 }
 
 
@@ -885,6 +910,58 @@ main {
 
 }
 
+.p_contents{
+
+	color: #585858;
+	text-align: justify;
+	width: 94%;
+	white-space: pre-line;
+	line-height: 30px;
+	font-size: 17px;
+
+}
+
+
+.q {
+
+	color: #585858;
+	background-color: #F2F2F2;
+	border: 10px solid #F2F2F2;
+	width: 80%;
+	position: relative;
+	left: 5%;
+	white-space: pre-line;
+	line-height: 30px;
+	font-size: 17px;
+
+}
+
+.q_img{
+
+	width: 700px;
+	position: relative;
+	
+
+}
+
+figure {
+
+	position: relative;
+	margin: 0 0 0 0;
+	text-align: center;
+	left: -30px;
+
+}
+
+figcaption {
+
+	position: relative;
+	top: 5px;
+	color: #424242;
+	font-size: 15px;
+
+}
+
 .read_more {
 
 	position: relative;
@@ -972,21 +1049,6 @@ main {
 	/*height: 300px;*/
 	overflow: hidden;
 	
-}
-
-figure {
-
-	margin: 0 0 0 0;
-	text-align: center;
-
-}
-
-figcaption {
-
-	position: relative;
-	top: 5px;
-	color: #424242;
-
 }
 
 
@@ -1340,6 +1402,66 @@ main {
 
 }
 
+
+.div_contents{
+
+
+}
+
+.p_contents{
+
+	color: #585858;
+	text-align: justify;
+	width: 94%;
+	white-space: pre-line;
+	line-height: 30px;
+	font-size: 17px;
+
+}
+
+
+.q {
+
+	color: #585858;
+	background-color: #F2F2F2;
+	border: 10px solid #F2F2F2;
+	width: 80%;
+	position: relative;
+	left: 5%;
+	white-space: pre-line;
+	line-height: 30px;
+	font-size: 17px;
+
+}
+
+.q_img{
+
+	width: 700px;
+	position: relative;
+	
+
+}
+
+figure {
+
+	position: relative;
+	margin: 0 0 0 0;
+	text-align: center;
+	left: -30px;
+
+}
+
+figcaption {
+
+	position: relative;
+	top: 5px;
+	color: #424242;
+	font-size: 15px;
+
+}
+
+
+
 .read_more {
 
 	position: relative;
@@ -1429,20 +1551,6 @@ main {
 	
 }
 
-figure {
-
-	margin: 0 0 0 0;
-	text-align: center;
-
-}
-
-figcaption {
-
-	position: relative;
-	top: 5px;
-	color: #424242;
-
-}
 
 /*AUDIO*/
 .art_audio {
