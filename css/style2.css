@@ -84,7 +84,7 @@ body {
 
 	position: relative;
 	width: 90%;
-	height: 70px;
+	height: 150px;
 	background-color: #FFFFFF;
 	border-bottom: 1px solid;
 /*	background-image: url('../images/header_background.png');
@@ -107,8 +107,8 @@ body {
 .img_title2{
 
 	position: relative;
-	height: 40px;
-	top: 20px;
+	height: 70px;
+	top: 60px;
 
 }
 
@@ -151,9 +151,9 @@ body {
 
 	position: absolute;
 	/*visibility: visible;*/
-	width: 50px;
+	width: 100px;
 	height: auto;
-	top: 20px;
+	top: 50px;
 	right: 0%;
 
 }
@@ -361,7 +361,7 @@ main {
 	margin-top: -50px;
 	font-family: 'DIN Alternate Bold';
 	color: #FFFFFF;
-	font-size: 20px;
+	font-size: 40px;
 	font-weight: bold;
 
 }
@@ -370,7 +370,7 @@ main {
 
 	font-family: 'DIN Alternate Bold';
 	font-weight: bold;
-	font-size: 25px;
+	font-size: 50px;
 
 }
 
@@ -380,11 +380,11 @@ main {
 	position: relative;
 	top: -30px;
 	color: #585858;
-	line-height: 35px;
+	line-height: 55px;
 	overflow: hidden;
 	
 	white-space: pre-line;
-	font-size: 20px;
+	font-size: 40px;
 	
 
 }
